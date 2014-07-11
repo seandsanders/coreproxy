@@ -19,6 +19,7 @@ setup(name='coreproxy',
       zip_safe=False,
       namespace_packages = ['brave'],
       install_requires=[
+          'ecdsa',
           'webob',
           'requests',
           'paste',
